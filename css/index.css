@@ -1,0 +1,234 @@
+body,ul,li,ol,dl,dt,dd,h1,h2,h3,h4,h5,h6,hr,p,pre,form,button, input, textarea,th,td/*padding:1px;*/{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+ul,ol{
+    list-style: none;
+}
+table{
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+a{
+    text-decoration: none;
+}
+a:active,
+a:hover {
+    outline: 0;
+}
+a,button{/*去除移动端 蓝色背景*/
+    -webkit-tap-highlight-color:rgba(0,0,0,0);
+}
+input:focus{/*去除input活动外边框*/
+    outline: 0;
+}
+img{
+    border:0;
+}
+pre{
+    overflow: auto;
+}
+code,kbd,pre,samp {
+    font-family: monospace, monospace;
+    font-size: 1em;
+}
+html,body{
+    height:100%;
+}
+
+body{
+    background: url("../images/packed-4.png") repeat 0 0;
+}
+.left{
+    width:30%;
+    height:100%;
+    float: left;
+    background: #383836;
+
+}
+
+.left .ltitle{
+    width:100%;
+    height:45px;
+    line-height:45px;
+    border-bottom: 1px solid #000;
+}
+.left .ltitle span{
+    float: right;
+    width:45px;
+    height:45px;
+    font-size: 45px;
+    color:#fff;
+    text-align: center;
+    line-height: 45px;
+    opacity: .7;
+}
+.left .ltitle span:hover{
+    opacity: 1;
+}
+.right{
+    width:70%;
+    height:100%;
+    float: right;
+}
+.l-list{
+    height:calc(100% - 46px);
+    overflow-y:auto;
+}
+.l-list li{
+    height:45px;
+    line-height: 45px;
+    border-bottom:1px solid rgba(1,1,1,0);
+}
+.l-list li.active{
+    background-color: #2D2D2B;
+}
+.l-list li .l-color{
+    width:45px;
+    height:45px;
+    float: left;
+    position: relative;
+    border-bottom:1px solid rgba(1,1,1,0);
+}
+.l-list li .l-color span{
+    width:18px;
+    height:18px;
+    position: absolute;
+    left:0;
+    right:0;
+    top:0;
+    bottom:0;
+    margin:auto;
+    border-radius: 50%;
+    background-color: #62DA37;
+}
+.l-list li .l-t{
+    width:calc(100% - 45px);
+    height:45px;
+    float: right;
+    border-bottom:1px solid #222;
+    box-shadow: 0 1px 0 #444;
+    color:#eee;
+
+}
+
+.r-title{
+    width:100%;
+    height:45px;
+    border-bottom: 1px solid #000;
+}
+.r-title input{
+    height:45px;
+    border:0;
+    margin-left:20px;
+    background: rgba(0,0,0,0);
+    width: 400px;
+
+}
+.r-title input.active{
+    background: #fff;
+}
+.title-left{
+    float: left;
+
+
+}
+.title-right{
+    float: right;
+}
+.title-left span{
+    font-size: 20px!important;
+    display: block;
+    float: left!important;
+    width: 100px!important;
+
+}
+.title-left span:nth-child(1){
+    color: #fff!important;
+    font-weight: bold;
+}
+.r-title input:focus{
+    background: #fff;
+    /*background: url(../images/packed-4.png) repeat 0 0;*/
+    border-right: 1px solid #ccc;
+}
+.h4s{
+    height:52px ;
+    line-height: 52px;
+    color: #999999;
+    font-size: 20px;
+}
+.r-list{
+    margin-left:30px;
+}
+.r-list li{
+    height:40px;
+}
+.r-list .r-com div,
+.r-list .now div{
+    width:18px;
+    height:18px;
+    border-radius:50%;
+    border: 2px solid #000;
+    padding:3px;
+    background-clip:content-box;
+    float: left;
+}
+.r-t{
+    width:100%;
+    height:60px;
+    line-height: 70px;
+    border-bottom:1px solid #ccc;
+}
+.r-t h3{
+    width:60%;
+    height:100%;
+    float: left;
+    font-size: 40px;
+}
+.r-t div{
+    width:90px;
+    height:100%;
+    float: right;
+    font-size: 20px;
+}
+.r-com li{
+    border-top: 1px solid #ccc;
+   height: 52px;
+}
+.r-com li div{
+    margin-top: 12px;
+}
+.now li div{
+    margin-top: 12px;
+}
+.r-com li input{
+    height: 52px;
+    outline: 0;
+    border: 0;
+    width: 400px;
+    background: url("../images/packed-4.png") repeat 0 0;
+
+}
+.now li{
+    border-top: 1px solid #ccc;
+    height: 52px;
+}
+.now li input{
+    height: 52px;
+    outline: 0;
+    border: 0;
+    width: 400px;
+    background: url("../images/packed-4.png") repeat;
+
+}
+
+.news{
+    font-size: 20px;
+    color: #999999;
+    line-height: 52px;
+    height: 52px;
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc;
+}
